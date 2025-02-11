@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ClerkProvider>
     <SignedOut>
-      <SignInButton />
+      {/* <SignInButton /> */}
     </SignedOut>
     <SignedIn>
       <UserButton />
